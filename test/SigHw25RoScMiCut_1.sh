@@ -1,7 +1,7 @@
 #!/bin/bash
 #Modify ====================
 BaseName="SigHw25RoScMiCut"
-RND_SEED="10"
+RND_SEED="11"
 # ==========================
 
 DirGg2VV="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/gg2VV-3.1.5/gg2VV"
