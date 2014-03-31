@@ -1,64 +1,64 @@
 #!/bin/sh
-#bsub -q 2nd -J SigMiCut1 <SigHw25RoScMiCut_1.sh
-#bsub -q 2nd -J ConMiCut1 <CotHw25RoScMiCut_1.sh
-#bsub -q 2nd -J IntMiCut1 <IntHw25RoScMiCut_1.sh
+bsub -q 2nd -J SigHw1MiCut1 <SigHw1RoScMiCut_1.sh
+bsub -q 2nd -J CotHw1MiCut1 <CotHw1RoScMiCut_1.sh
+bsub -q 2nd -J IntHw1MiCut1 <IntHw1RoScMiCut_1.sh
 
-bsub -q 2nd -J SigMiCut2 <SigHw25RoScMiCut_2.sh
-bsub -q 2nd -J ConMiCut2 <CotHw25RoScMiCut_2.sh
-bsub -q 2nd -J IntMiCut2 <IntHw25RoScMiCut_2.sh
+bsub -q 2nd -J SigHw1MiCut2 <SigHw1RoScMiCut_2.sh
+bsub -q 2nd -J CotHw1MiCut2 <CotHw1RoScMiCut_2.sh
+bsub -q 2nd -J IntHw1MiCut2 <IntHw1RoScMiCut_2.sh
 
-bsub -q 2nd -J SigMiCut3 <SigHw25RoScMiCut_3.sh
-bsub -q 2nd -J ConMiCut3 <CotHw25RoScMiCut_3.sh
-bsub -q 2nd -J IntMiCut3 <IntHw25RoScMiCut_3.sh
+bsub -q 2nd -J SigHw1MiCut3 <SigHw1RoScMiCut_3.sh
+bsub -q 2nd -J CotHw1MiCut3 <CotHw1RoScMiCut_3.sh
+bsub -q 2nd -J IntHw1MiCut3 <IntHw1RoScMiCut_3.sh
 
-bsub -q 2nd -J SigMiCut4 <SigHw25RoScMiCut_4.sh
-bsub -q 2nd -J ConMiCut4 <CotHw25RoScMiCut_4.sh
-bsub -q 2nd -J IntMiCut4 <IntHw25RoScMiCut_4.sh
+bsub -q 2nd -J SigHw1MiCut4 <SigHw1RoScMiCut_4.sh
+bsub -q 2nd -J CotHw1MiCut4 <CotHw1RoScMiCut_4.sh
+bsub -q 2nd -J IntHw1MiCut4 <IntHw1RoScMiCut_4.sh
 
-bsub -q 2nd -J SigMiCut5 <SigHw25RoScMiCut_5.sh
-bsub -q 2nd -J ConMiCut5 <CotHw25RoScMiCut_5.sh
-bsub -q 2nd -J IntMiCut5 <IntHw25RoScMiCut_5.sh
+bsub -q 2nd -J SigHw1MiCut5 <SigHw1RoScMiCut_5.sh
+bsub -q 2nd -J CotHw1MiCut5 <CotHw1RoScMiCut_5.sh
+bsub -q 2nd -J IntHw1MiCut5 <IntHw1RoScMiCut_5.sh
 
-bsub -q 2nd -J SigMiCut6 <SigHw25RoScMiCut_6.sh
-bsub -q 2nd -J ConMiCut6 <CotHw25RoScMiCut_6.sh
-bsub -q 2nd -J IntMiCut6 <IntHw25RoScMiCut_6.sh
+bsub -q 2nd -J SigHw1MiCut6 <SigHw1RoScMiCut_6.sh
+bsub -q 2nd -J CotHw1MiCut6 <CotHw1RoScMiCut_6.sh
+bsub -q 2nd -J IntHw1MiCut6 <IntHw1RoScMiCut_6.sh
 
-bsub -q 2nd -J SigMiCut7 <SigHw25RoScMiCut_7.sh
-bsub -q 2nd -J ConMiCut7 <CotHw25RoScMiCut_7.sh
-bsub -q 2nd -J IntMiCut7 <IntHw25RoScMiCut_7.sh
+bsub -q 2nd -J SigHw1MiCut7 <SigHw1RoScMiCut_7.sh
+bsub -q 2nd -J CotHw1MiCut7 <CotHw1RoScMiCut_7.sh
+bsub -q 2nd -J IntHw1MiCut7 <IntHw1RoScMiCut_7.sh
 
-bsub -q 2nd -J SigMiCut8 <SigHw25RoScMiCut_8.sh
-bsub -q 2nd -J ConMiCut8 <CotHw25RoScMiCut_8.sh
-bsub -q 2nd -J IntMiCut8 <IntHw25RoScMiCut_8.sh
+bsub -q 2nd -J SigHw1MiCut8 <SigHw1RoScMiCut_8.sh
+bsub -q 2nd -J CotHw1MiCut8 <CotHw1RoScMiCut_8.sh
+bsub -q 2nd -J IntHw1MiCut8 <IntHw1RoScMiCut_8.sh
 
-bsub -q 2nd -J SigMiCut9 <SigHw25RoScMiCut_9.sh
-bsub -q 2nd -J ConMiCut9 <CotHw25RoScMiCut_9.sh
-bsub -q 2nd -J IntMiCut9 <IntHw25RoScMiCut_9.sh
+bsub -q 2nd -J SigHw1MiCut9 <SigHw1RoScMiCut_9.sh
+bsub -q 2nd -J CotHw1MiCut9 <CotHw1RoScMiCut_9.sh
+bsub -q 2nd -J IntHw1MiCut9 <IntHw1RoScMiCut_9.sh
 
-bsub -q 2nd -J SigMiCut10 <SigHw25RoScMiCut_10.sh
-bsub -q 2nd -J ConMiCut10 <CotHw25RoScMiCut_10.sh
-bsub -q 2nd -J IntMiCut10 <IntHw25RoScMiCut_10.sh
+bsub -q 2nd -J SigHw1MiCut10 <SigHw1RoScMiCut_10.sh
+bsub -q 2nd -J CotHw1MiCut10 <CotHw1RoScMiCut_10.sh
+bsub -q 2nd -J IntHw1MiCut10 <IntHw1RoScMiCut_10.sh
 
-bsub -q 2nd -J SigMiCut11 <SigHw25RoScMiCut_11.sh
-bsub -q 2nd -J ConMiCut11 <CotHw25RoScMiCut_11.sh
-bsub -q 2nd -J IntMiCut11 <IntHw25RoScMiCut_11.sh
+bsub -q 2nd -J SigHw1MiCut11 <SigHw1RoScMiCut_11.sh
+bsub -q 2nd -J CotHw1MiCut11 <CotHw1RoScMiCut_11.sh
+bsub -q 2nd -J IntHw1MiCut11 <IntHw1RoScMiCut_11.sh
 
-bsub -q 2nd -J SigMiCut12 <SigHw25RoScMiCut_12.sh
-bsub -q 2nd -J ConMiCut12 <CotHw25RoScMiCut_12.sh
-bsub -q 2nd -J IntMiCut12 <IntHw25RoScMiCut_12.sh
+bsub -q 2nd -J SigHw1MiCut12 <SigHw1RoScMiCut_12.sh
+bsub -q 2nd -J CotHw1MiCut12 <CotHw1RoScMiCut_12.sh
+bsub -q 2nd -J IntHw1MiCut12 <IntHw1RoScMiCut_12.sh
 
-bsub -q 2nd -J SigMiCut13 <SigHw25RoScMiCut_13.sh
-bsub -q 2nd -J ConMiCut13 <CotHw25RoScMiCut_13.sh
-bsub -q 2nd -J IntMiCut13 <IntHw25RoScMiCut_13.sh
+bsub -q 2nd -J SigHw1MiCut13 <SigHw1RoScMiCut_13.sh
+bsub -q 2nd -J CotHw1MiCut13 <CotHw1RoScMiCut_13.sh
+bsub -q 2nd -J IntHw1MiCut13 <IntHw1RoScMiCut_13.sh
 
-bsub -q 2nd -J SigMiCut14 <SigHw25RoScMiCut_14.sh
-bsub -q 2nd -J ConMiCut14 <CotHw25RoScMiCut_14.sh
-bsub -q 2nd -J IntMiCut14 <IntHw25RoScMiCut_14.sh
+bsub -q 2nd -J SigHw1MiCut14 <SigHw1RoScMiCut_14.sh
+bsub -q 2nd -J CotHw1MiCut14 <CotHw1RoScMiCut_14.sh
+bsub -q 2nd -J IntHw1MiCut14 <IntHw1RoScMiCut_14.sh
 
-bsub -q 2nd -J SigMiCut15 <SigHw25RoScMiCut_15.sh
-bsub -q 2nd -J ConMiCut15 <CotHw25RoScMiCut_15.sh
-bsub -q 2nd -J IntMiCut15 <IntHw25RoScMiCut_15.sh
+bsub -q 2nd -J SigHw1MiCut15 <SigHw1RoScMiCut_15.sh
+bsub -q 2nd -J CotHw1MiCut15 <CotHw1RoScMiCut_15.sh
+bsub -q 2nd -J IntHw1MiCut15 <IntHw1RoScMiCut_15.sh
 
-bsub -q 2nd -J SigMiCut16 <SigHw25RoScMiCut_16.sh
-bsub -q 2nd -J ConMiCut16 <CotHw25RoScMiCut_16.sh
-bsub -q 2nd -J IntMiCut16 <IntHw25RoScMiCut_16.sh
+bsub -q 2nd -J SigHw1MiCut16 <SigHw1RoScMiCut_16.sh
+bsub -q 2nd -J CotHw1MiCut16 <CotHw1RoScMiCut_16.sh
+bsub -q 2nd -J IntHw1MiCut16 <IntHw1RoScMiCut_16.sh
