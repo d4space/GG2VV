@@ -1,7 +1,7 @@
 #!/bin/bash
 #Modify ====================
-BaseName="SigHw1RoScMiCut"
-RND_SEED="91"
+BaseName=
+RND_SEED=
 # ==========================
 
 DirGg2VV="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/gg2VV-3.1.5/gg2VV"
@@ -19,5 +19,9 @@ cp $COMMAND $COMMAND$RND_SEED
 cd -
 $COMMAND$RND_SEED
 
-mkdir $DATA_DIRECTORY
+if [[ ! -e $DATA_DIRECTORY ]]; then
+  mkdir $DATA_DIRECTORY
+fi
+
+
 cp $COMMAND$RND_SEED$GEN_FILE_TAIL $DATA_DIRECTORY"/"$COMMAND$RND_SEED$RES_FILE_TAIL
