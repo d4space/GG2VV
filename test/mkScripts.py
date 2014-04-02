@@ -21,7 +21,7 @@ for idx in  myRange:
   if os.path.isfile(OutFile):
     print OutFile+" exist, removing...., and creating"
     os.remove(OutFile)
-  with open ("Template.sh", "r") as myfile:
+  with open("Template.sh", "r") as myfile:
     for line in myfile:
       with open(OutFile, "a") as outFile:
 	if 'BaseName=' in line:
