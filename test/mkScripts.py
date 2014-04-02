@@ -4,7 +4,7 @@ idx=0
 BaseName="IntHw25RoScMiCut"
 print "BaseName is "+BaseName
 
-myRange = range(1, 161) # used until 160
+myRange = range(21, 30) # used until last number -1
 for idx in  myRange:
   if   BaseName=="SigHw25RoScMiCut":
     Seed = idx*10 + 1
