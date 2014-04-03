@@ -1,6 +1,6 @@
 import os
 
-myRange = range(1, 161) # this will run util lastNumber -1
+myRange = range(19, 31) # this will run util lastNumber -1
 for idx in myRange:
   Sigcmd = "bsub -q 2nd -J SigH25Mi"+str(idx)+" <SigHw25RoScMiCut_"+str(idx)+".sh"
   Cotcmd = "bsub -q 2nd -J CotH25Mi"+str(idx)+" <CotHw25RoScMiCut_"+str(idx)+".sh"
