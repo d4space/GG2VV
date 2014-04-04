@@ -4,13 +4,15 @@ BaseName=
 RND_SEED=
 # ==========================
 
-DirGg2VV="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/gg2VV-3.1.5/gg2VV"
+#DirGg2VV="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/gg2VV-3.1.5/gg2VV"
+DirGg2VV="/afs/cern.ch/work/s/spak/private/GG2VV/gg2VV-3.1.5/gg2VV"
 PATH=$PATH:$DirGg2VV
 COMMAND="gg2VV_"$BaseName
 RND_TAIL=".rngseed"
 GEN_FILE_TAIL="_unweightedEvents.dat"
 RES_FILE_TAIL="_unweightedEvents.lhe"
-DATA_DIRECTORY="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/test/"$BaseName
+#DATA_DIRECTORY="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/test/"$BaseName
+DATA_DIRECTORY="/afs/cern.ch/work/s/spak/private/GG2VV/test/"$BaseName
 rm -f $COMMAND$RND_SEED$RND_TAIL
 touch $COMMAND$RND_SEED$RND_TAIL
 echo $RND_SEED >> $COMMAND$RND_SEED$RND_TAIL
