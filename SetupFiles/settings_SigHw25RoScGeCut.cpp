@@ -52,7 +52,7 @@ const double SMP::mtau = 1.777;
 const double SMP::mt = 172.5;
 const double SMP::mb = 4.75;
 // Higgs mass and width
-const double SMP::mH = 126.;
+const double SMP::mH = 125.;
 ///const double SMP::wH = SMP::gamma_H_HTO(); /// standard setting 
 const double SMP::wH = 25*(SMP::gamma_H_HTO()); /// from H->ZZ setting 
 // Higgs rescaling relative to SM couplings 
