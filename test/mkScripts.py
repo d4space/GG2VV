@@ -1,12 +1,12 @@
 import os
 
 idx=0
-#BaseName="CotHw25RoScMiCut"
+BaseName="CotHw25RoScMiCut"
 #BaseName="SigHw25RoScMiCut"
-BaseName="IntHw25RoScMiCut"
+#BaseName="IntHw25RoScMiCut"
 print "BaseName is "+BaseName
 
-myRange = range(30, 161) # used until last number -1
+myRange = range(211, 221) # used until last number -1
 for idx in  myRange:
   if   BaseName=="SigHw25RoScMiCut":
     Seed = idx*10 + 1
