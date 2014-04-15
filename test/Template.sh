@@ -4,10 +4,13 @@ BaseName=
 RND_SEED=
 # ==========================
 
-DirGg2VV="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/gg2VV-3.1.5/gg2VV"
-#DirGg2VV="/afs/cern.ch/work/s/spak/private/GG2VV/gg2VV-3.1.5/gg2VV"
-DATA_DIRECTORY="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/test/"$BaseName
-#DATA_DIRECTORY="/afs/cern.ch/work/s/spak/private/GG2VV/test/"$BaseName
+cd /afs/cern.ch/user/s/spak/Work/private/GG2VV/
+. setenvSourceME4gg2VV.sh
+cd -
+#DirGg2VV="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/gg2VV-3.1.5/gg2VV"
+DirGg2VV="/afs/cern.ch/work/s/spak/private/GG2VV/gg2VV-3.1.5/gg2VV"
+#DATA_DIRECTORY="/afs/cern.ch/work/s/salee/private/HWWwidth/GG2VV/test/"$BaseName
+DATA_DIRECTORY="/afs/cern.ch/work/s/spak/private/GG2VV/test/"$BaseName
 
 PATH=$PATH:$DirGg2VV
 COMMAND="gg2VV_"$BaseName
