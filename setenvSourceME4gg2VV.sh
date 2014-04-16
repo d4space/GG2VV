@@ -7,3 +7,4 @@ export LOOPTOOLS_TOPDIR=$gg2VV_PATH/LoopTools-2.8
 #setenv LHAPATH /afs/cern.ch/work/s/salee/private/HWWwidth/CMSSW_5_3_7/src/HWW/ggVV/Generation/lhapdf-5.9.1/lhapdf-5.9.1-out/share/lhapdf
 . /afs/cern.ch/sw/IntelSoftware/linux/all-setup.sh
 export PATH=${PATH}:${gg2VV_PATH}/omniORB-4.1.6/bin
+export SCRAM_ARCH=slc5_amd64_gcc462
